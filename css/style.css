@@ -192,4 +192,63 @@ section {
   margin-bottom: 12px;
   font-size: 24px;
 }
+
+/* Portfolio */
+.portfolio {
+  background-color: #e3e7e6;
+  padding-bottom: 120px;
+}
+
+.portfolio .section-title {
+  padding-top: 120px;
+}
+
+.portfolio .boxes {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.portfolio .boxes .box {
+  /* border: 2px solid red; */
+  max-width: 400px;
+  padding: 25px;
+  text-align: center;
+}
+
+.portfolio .boxes .box .image {
+  max-width: 100%;
+  width: 80%;
+  height: 80%;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.portfolio .boxes .box .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio .boxes .box .box-text {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.portfolio .boxes .box .box-text h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.portfolio .boxes .box .box-text p {
+  margin-top: 0px;
+}
 /*# sourceMappingURL=style.css.map */
