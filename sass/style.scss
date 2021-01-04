@@ -49,7 +49,6 @@ section {
     margin-top: 0;
 }
 
-
 /* Navigation */
 
 .navigation {
@@ -105,3 +104,40 @@ section {
     }
 }
 
+/* Splash */
+
+.splash {
+    color: $color-one;
+    text-align: center;
+    height: 60vh;
+    margin-top: 250px;
+    .title {
+        font-size: 48px;
+        font-family: $font-header;
+        font-weight: 100; 
+        margin-bottom: 0;
+    }
+    .subtitle {
+        margin-top: 10px;
+        margin-bottom: 64px;
+        font-weight: 700;
+        font-size: 72px;
+    }
+}
+
+.btn {
+    color: $color-one;
+    border: 2px solid $color-five;
+    background-color: $color-five;
+    padding: 25px 56px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    transition-duration: 1s;
+    &:hover {
+        color: $color-five;
+        border-color: $color-five;
+        background: none;
+    }
+}

@@ -102,4 +102,44 @@ section {
   padding-left: 48px;
   padding-top: 12px;
 }
+
+/* Splash */
+.splash {
+  color: #ffffff;
+  text-align: center;
+  height: 60vh;
+  margin-top: 250px;
+}
+
+.splash .title {
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.splash .subtitle {
+  margin-top: 10px;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.btn {
+  color: #ffffff;
+  border: 2px solid #ffd300;
+  background-color: #ffd300;
+  padding: 25px 56px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  color: #ffd300;
+  border-color: #ffd300;
+  background: none;
+}
 /*# sourceMappingURL=style.css.map */
