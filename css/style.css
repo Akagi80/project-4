@@ -142,4 +142,51 @@ section {
   border-color: #ffd300;
   background: none;
 }
+
+/* Services */
+.services {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.services .boxes {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 76px;
+  margin-bottom: 48px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.services .boxes .box {
+  min-height: 260px;
+  max-width: 300px;
+  margin: 12px;
+  padding: 12px;
+}
+
+.services .boxes .box i {
+  font-size: 48px;
+  border-radius: 50%;
+  border: 3px solid #ffd300;
+  width: 90px;
+  height: 90px;
+  color: #ffd300;
+  line-height: 85px;
+  transition-duration: 1s;
+}
+
+.services .boxes .box i:hover {
+  color: #ffffff;
+  background: #ffd300;
+}
+
+.services .boxes .box .box-title {
+  color: #000000;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
 /*# sourceMappingURL=style.css.map */

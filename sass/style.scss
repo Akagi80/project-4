@@ -141,3 +141,44 @@ section {
         background: none;
     }
 }
+
+/* Services */
+
+.services {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.services .boxes {
+    display: flex;
+    margin-top: 76px;
+    margin-bottom: 48px;
+    justify-content: space-around;
+    flex-flow: wrap;
+    .box {
+        min-height: 260px;
+        max-width: 300px;
+        margin: 12px;
+        padding: 12px;
+        i {
+            font-size: 48px;
+            border-radius: 50%;
+            border: 3px solid $color-five;
+            width: 90px;
+            height: 90px;
+            color: $color-five;
+            line-height: 85px;
+            transition-duration: 1s;
+            &:hover {
+                color: $color-one;
+                background: $color-five;
+            }
+        }
+        .box-title {
+            color: $color-two;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+    }
+}
