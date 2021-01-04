@@ -1,0 +1,107 @@
+/* Variables */
+
+$font-text: 'Roboto', sans-serif;
+$font-header: 'Raleway', sans-serif;
+$color-one: #ffffff;
+$color-two: #000000;
+$color-three: #777777;
+$color-four: #e3e7e6;
+$color-five: #ffd300;
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+ font-family: $font-text;
+ margin: 0;
+}
+
+section {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    color: $color-three;
+}
+
+.top {
+    height: 100vh;
+    background-color: $color-two;
+    background-image: url("https://i.postimg.cc/h4ZGdMzx/SPLASH-P4.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    color: $color-one;
+}
+
+.section-title {
+    font-size: 48px;
+    font-family: $font-header;
+    color: $color-two;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1320px;
+    margin: 0 auto;
+} 
+
+.nav-brand {
+    padding: 12px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: $color-five;
+}
+
+.nav-list {
+    margin-top: 24px;
+    ul {
+        list-style-type: none;
+        li {
+            display: inline;
+            margin-right: 48px;
+            a {
+                text-decoration: none;
+                color: $color-one;
+                font-weight: 700;
+                font-size: 12px;
+                transition-duration: 1s;
+                &:hover {
+                    color: $color-five;
+                }
+                i {
+                    font-size: 24px;
+                }
+            }
+            &:hover ul {
+                display: block;
+            }
+            ul {
+                display: none;
+                position: absolute;
+                transform: translateX(-50%);
+                padding-top: 12px;
+                li {
+                    display: block;
+                    padding-left: 48px;
+                    padding-top: 12px,
+                }
+            }
+        }
+    }
+}
+
