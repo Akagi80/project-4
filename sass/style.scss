@@ -30,7 +30,7 @@ section {
     height: 100vh;
     background-color: $color-two;
     background-image: url("https://i.postimg.cc/h4ZGdMzx/SPLASH-P4.jpg");
-    /* url("project4\images/SPLASH-P4.jpg");  */
+    /* url("project4/images/SPLASH-P4.jpg"); nie zaczytuje pomimo poprawnej ścieżki */
     position: relative;
     background-position: center;
     background-size: cover;
@@ -50,6 +50,7 @@ section {
     font-size: 24px;
     margin-top: 0;
     text-align:center;
+    font-style: italic;
 }
 
 /* Navigation */
@@ -200,6 +201,7 @@ section {
         margin: 0 140px;
         .box {
             max-width: 400px;
+            height: 450px;
             padding: 35px 15px;
             text-align:center;
             .image {
@@ -224,9 +226,11 @@ section {
                 h3 {
                     margin-top: 0;
                     margin-bottom: 0px;
+                    color: $color-two;
                 }
                 p {
                     margin-top: 0px;
+                    font-style: italic;
                 }
             }
         }
@@ -241,8 +245,8 @@ section {
     text-align: center;
     max-width: 1320px;
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 45px;
+    padding-bottom: 30px;
 } 
 
 .footer-list {
@@ -270,8 +274,10 @@ section {
                 color: $color-one;
                 font-size: 18px;
                 line-height: 32px;
-                transition: 1s;
+                transition: 2s;
             }
         }
     }
 }
+
+
