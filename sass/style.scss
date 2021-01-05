@@ -1,7 +1,7 @@
 /* Variables */
 
-$font-text: 'Roboto', sans-serif;
-$font-header: 'Raleway', sans-serif;
+$font-text: 'Source Sans Pro', Sans-Serif;
+$font-header: 'Playfair Display', Serif;
 $color-one: #ffffff;
 $color-two: #000000;
 $color-three: #777777;
@@ -39,7 +39,6 @@ section {
 
 .section-title {
     font-size: 40px;
-    font-family: $font-header;
     color: $color-two;
     font-weight: bold;
     margin-bottom: 10px;
@@ -68,6 +67,8 @@ section {
     font-size: 28px;
     letter-spacing: 2px;
     color: $color-five;
+    font-family: $font-header;
+    font-style: italic;
 }
 
 .nav-list {
@@ -81,13 +82,10 @@ section {
                 text-decoration: none;
                 color: $color-one;
                 font-weight: 700;
-                font-size: 12px;
+                font-size: 14px;
                 transition-duration: 1s;
                 &:hover {
                     color: $color-five;
-                }
-                i {
-                    font-size: 24px;
                 }
             }
             &:hover ul {
@@ -101,7 +99,7 @@ section {
                 li {
                     display: block;
                     padding-left: 48px;
-                    padding-top: 12px,
+                    padding-top: 12px;
                 }
             }
         }
@@ -118,6 +116,7 @@ section {
     .title {
         font-size: 48px;
         font-family: $font-header;
+        font-style: italic;
         font-weight: 100; 
         margin-bottom: 0;
     }
@@ -125,7 +124,7 @@ section {
         margin-top: 10px;
         margin-bottom: 64px;
         font-weight: 700;
-        font-size: 72px;
+        font-size: 80px;
     }
 }
 
@@ -285,8 +284,10 @@ section {
 @media (max-width: 767px) {
     .navigation .nav-list ul li {
         margin-right: 3px; 
+        ul {
+            padding: 0;
+        } 
     }
-
     .splash {
         margin-top: 150px;
         .title {
@@ -302,11 +303,9 @@ section {
             font-size: 72px;
         }
     }
-
     .portfolio {
         .boxes {
             margin: 0 20px;
         }
     }
-
 }
