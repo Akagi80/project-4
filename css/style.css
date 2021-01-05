@@ -316,7 +316,7 @@ section {
     padding: 0;
   }
   .splash {
-    margin-top: 150px;
+    margin-top: 50px;
   }
   .splash .title {
     font-size: 48px;
@@ -332,6 +332,21 @@ section {
   }
   .portfolio .boxes {
     margin: 0 20px;
+  }
+  .footer-empty {
+    display: none;
+  }
+}
+
+@media (max-height: 767px) {
+  .splash {
+    margin-top: 50px;
+  }
+  .splash .title {
+    font-size: 28px;
+  }
+  .splash .subtitle {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
