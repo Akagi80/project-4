@@ -280,4 +280,33 @@ section {
     }
 }
 
+/* Media */
 
+@media (max-width: 767px) {
+    .navigation .nav-list ul li {
+        margin-right: 3px; 
+    }
+
+    .splash {
+        margin-top: 150px;
+        .title {
+            font-size: 48px;
+            font-family: $font-header;
+            font-weight: 100; 
+            margin-bottom: 0;
+        }
+        .subtitle {
+            margin-top: 10px;
+            margin-bottom: 64px;
+            font-weight: 700;
+            font-size: 72px;
+        }
+    }
+
+    .portfolio {
+        .boxes {
+            margin: 0 20px;
+        }
+    }
+
+}
